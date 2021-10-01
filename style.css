@@ -1,0 +1,212 @@
+body{
+	background: #fff url(bubble.png) repeat fixed;
+	padding:0;
+	
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #000000;
+	line-height:1.4em;
+	letter-spacing: 0.1em;
+}
+
+li{
+	line-height:2em;
+}
+
+dt{
+	margin-top: 1em;
+	border-bottom: 1px dotted #000000;
+}
+
+h1{
+        color: white;
+	font-weight: bold;
+	font-size: 1em;
+	font-style:italic;
+	border-bottom: 4px double;
+	text-align: left;
+	margin: 1em 0;
+}
+h2{
+	font-weight: bold;
+	font-size:1.2em;
+}
+h3{
+	font-weight: bold;
+	font-size: 1em;
+}
+
+strong{ font-weight: bold;}
+
+a{
+	text-decoration: none;
+	color: #303080;
+}
+a:link{ color: #303080;}
+a:visited{ color: #aa55aa;}
+a:active{ color: #9090f0;}
+a:hover{ color: #9090f0;}
+a.label{ color: #000000;}
+
+blockquote{
+	font-style: oblique;
+}
+address{
+	text-align: left;
+	line-height: 2em;
+	font-style: oblique;
+	color: #808080;
+	border-bottom: 1px solid;
+}
+address a,address a:link,address a:visited{
+	color: #808080;
+}
+address a:hover{ color: #303030;}
+
+table{ border: solid 1px #808080;}
+td{
+	background-color: #eeeeee;
+	padding: 2px;
+}
+th{
+	background-color: #cccccc;
+	padding: 2px;
+}
+
+div.maindiv{
+	margin: 1em;
+	width: 80%;
+}
+
+div.top{
+	margin: 1em 0;
+}
+
+.index ul{
+	list-style: disc;
+	color: #777;
+}
+
+div.kousin{
+	line-height: 0.8em;
+	font-size:0.9em;
+	padding:1em 0 0 0;
+	margin:0;
+}
+div.kousin h2{
+	font-size: 0.9em;
+	font-weight: bold;
+	margin:0;
+}
+div.kousin dl{
+	font-size:0.8em;
+	line-height: 1.4em;
+}
+
+div.kousin dd{
+	margin-bottom: 2px;
+}
+div.kousin dt{
+	border-left: 3px dotted;
+	border-bottom: none;
+	color: #707070;
+	padding-left: 2px;
+	margin: 0;
+}
+div.kousin dl dl{
+	font-size: 100%;
+}
+div.kousin dl dl dt{
+	border: none;
+	margin-left: 1em;
+}
+
+div.e_index{
+	margin-right: -100px;
+}
+div.e_index a:visited img{ border: 1px solid #aa55aa; }
+div.e_index a:link img{ border: 1px solid #303080; }
+div.e_index a:hover img	{ border: 1px solid #9090f0; }
+div.e_index .e_item{
+	float:left;
+	width: 70px;
+	padding: 0;
+	margin: 0 100px 100px 0;
+	line-height: 0;
+}
+div.e_index .e_item img{
+	padding:0; margin: 0;
+}
+div.e_index .inf{
+	font-size: smaller;
+	color: #808080;
+	display:none;
+	position: absolute;
+	background-color: #ffffff;
+	/*word-break: keep-all;*/
+	line-height: 1.4em;
+	border: 1px solid #808080;
+	border-left: none;
+	height: 108px;
+	padding-left: 2px;
+}
+.inf h2{
+	margin: 1em  0;
+}
+.inf p{
+	margin-left: 1px;
+	margin-top: 0;
+}
+
+
+table.tamago{margin-top: 1em; margin-bottom: 1em; font-size:smaller; letter-spacing: 0;}
+
+p.dot{
+	line-height: 0.6em; letter-spacing: -0.4em;
+	font-family:monospace;
+}
+p.dot .red{ color: rgb(189, 68,  0);}
+p.dot .brw{ color: rgb(172,124,  0);}
+p.dot .ylw{ color: rgb(255,160, 68);}
+p.dot .spc{ color: rgb(255,255,255);}
+
+div.ruinsguide{
+	margin: 1em;
+}
+div.figure{
+	float: left;
+	margin: 0 1em 2em 0;
+}
+div.figure img{
+}
+div.explanation{
+	width: 70%;
+}
+div.explanation p{
+	margin: 0 0 1em 0;
+}
+div.miniindex{
+	clear: both;
+}
+div.miniindex a{
+	margin: 0 0.5em 0 0.5em;
+}
+div.section{
+	margin: 1em 0 2em 0;
+	clear: both;
+}
+
+div.example{
+	border: 1px solid #aaaaaa;
+	padding: 1em;
+}
+
+div.webclap{
+	text-align: center;
+	margin: 0 1em;
+}
+.webclap .mes{
+	margin-bottom: 3em;
+}
+.webclap .rights{
+	font-size: x-small;
+}
