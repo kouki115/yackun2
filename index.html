@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>やっくん語翻訳機 β版</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<script type="text/javascript" src="kana2roman.js"></script>
+<script type="text/javascript" src="roman2kana.js"></script>
+<script type="text/javascript" src="kata2roman.js"></script>
+<script type="text/javascript" src="kana2kata.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<style type="text/css">
+<!--
+.textarea1{
+	float: left;
+	width: auto;
+}
+.textarea2{
+	float: left;
+	width: auto;
+}
+.button{
+	float: left;
+	width: auto;
+	margin: 0 1em;
+	text-align: center;
+}
+.button{
+	float: left;
+	width: auto;
+	margin: 0 1em;
+	text-align: center;
+}
+-->
+</style>
+</head>
+
+
+<body>
+<div class="maindiv" style="width:95%;">
+<h1>やっくん語翻訳機 β版</h1>
+
+<form onsubmit="return false;">
+
+<div class="textarea1">
+<textarea cols="36" rows="15" id="area1"></textarea>
+</div>
+
+<div class="button">
+<p><input type="button" value="カタカナに翻訳" onclick="Conversion(Conv_Roman2Kana,1);"></p>
+<p><input type="button" value="ひらがなに翻訳" onclick="Conversion(Conv_Kana2Roman,1);"></p>
+</div>
+
+<div class="textarea2">
+<textarea cols="36" rows="15" id="area2"></textarea>
+</div>
+
+</form>
+<br style="clear:both;">
+<div style="background-color:transport; width: 100%; margin-left: 0px; text-align: left;">
+<div style="text-align:center;">
+</div>
+
+<div style="text-align: center;">
+
+</div></body>
+</html>
